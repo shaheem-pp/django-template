@@ -9,7 +9,9 @@ This repository serves as a basic template for quickly setting up a Django proje
 - Easy-to-install dependencies via `requirements.txt`.
 - A guide for generating a secret key and running the Django server.
 
+
 ## Getting Started
+
 
 ### 1. Clone the Repository
 ```bash
@@ -17,9 +19,10 @@ git clone https://github.com/shaheem-pp/django-template.git
 cd django-template
 ```
 
+
 ### 2. Set Up Environment Variables
 
-Create a `.env` file in the root directory and populate it with your project-specific values:
+Create a `.env` file in the project directory and populate it with your project-specific values:
 ```env
 SECRET_KEY=YOUR_KEY_HERE
 DEBUG=YOUR_KEY_HERE
@@ -34,11 +37,13 @@ TIME_ZONE=YOUR_KEY_HERE
 USE_TZ=YOUR_KEY_HERE
 ```
 
+
 ### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### 4. Generate a Secret Key
 
@@ -48,12 +53,14 @@ from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key())
 ```
 
+
 ### 5. Run Migrations and Start the Server
 
 ```bash
 python manage.py migrate
 python manage.py runserver
 ```
+
 
 ## Project Structure
 
@@ -86,9 +93,6 @@ python manage.py runserver
 
 Feel free to contribute by submitting a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
